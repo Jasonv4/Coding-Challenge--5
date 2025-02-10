@@ -31,6 +31,13 @@ let availableStock = inventory.filter(quantity => quantity > 0); //Removes produ
 console.log(availableStock);// Logging Filtered array
 
 //Task 6: Reduce Method
+
 let sales = [114, 910, 920, 430]; // Declaring Array Sales
 let totalRevenue = sales.reduce((total, sales) => total + sales, 0);// Using Reduce to calculate total revenut
 console.log(`Total Revenue; $${totalRevenue}`);//Logging total revenue
+
+//Task 7; find() Method
+
+let customers = ["Peter","Gwen", "Miles", "Miguel"]; // declaring array of customers
+let thisCustomer = customers.find(customer => customer === "Miles"); // Finding specific customer "Miles"
+console.log(thisCustomer); // Logging search result
