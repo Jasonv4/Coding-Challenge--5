@@ -47,5 +47,6 @@ console.log(thisCustomer); // Logging search result
 function calculateTax(amount, taxRate) {
   let tax =  amount * taxRate; 
     console.log(`Calculated tax: $${tax}`)
-};
+};// Writing Function to calculate tax
     calculateTax(150, 0.07)
+
