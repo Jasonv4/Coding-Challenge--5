@@ -29,3 +29,8 @@ console.log(`Discounted Price: ${discountedPrice}`); // Logging Discounted price
 let inventory = [0, 12, 13, 0, 15, 68]; //Declaring array inventory
 let availableStock = inventory.filter(quantity => quantity > 0); //Removes products with zero stock
 console.log(availableStock);// Logging Filtered array
+
+//Task 6: Reduce Method
+let sales = [114, 910, 920, 430]; // Declaring Array Sales
+let totalRevenue = sales.reduce((total, sales) => total + sales, 0);// Using Reduce to calculate total revenut
+console.log(`Total Revenue; $${totalRevenue}`);//Logging total revenue
