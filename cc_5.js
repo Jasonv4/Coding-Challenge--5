@@ -10,3 +10,12 @@ const order = { orderId: 910, totalAmount: 690, status: "In progress",
     {console.log(`Order ID: ${this.orderId}, Total: ${this.totalAmount}, Status: ${this.status}`)}
  } // Declaring order with properties and adding method 
 order.displayOrder(); // Calling the method 
+
+//Task 3: Array Manipulation 
+
+let cartItems = ["Chips", "Juice", "Water"]; //Declaring cart items
+cartItems.push("cookies"); //Adding cookies to the cart
+cartItems.pop(); //Removing the last item from the cart
+cartItems.unshift("cereal"); // Adding cereal to the beginning
+cartItems.shift(); // Removing the first item in cart
+console.log(cartItems); // Logging final array
