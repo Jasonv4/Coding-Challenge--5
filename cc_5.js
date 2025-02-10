@@ -55,4 +55,11 @@ let applyDiscount =function(price, discount)
 {return price -(price * discount)}; // Declaring function
 console.log(`Discounted Price : $${applyDiscount(420, 0.15)}`); //Returns discountec price
 
+//Task 10 Arrow Function
+const calculatePoints = (purchaseAmount) => {
+    let points = Math.floor(purchaseAmount / 10);
+console.log(`Total Points ${points}`)
+return points;}
+calculatePoints(780)
+
 
