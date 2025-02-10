@@ -21,6 +21,6 @@ cartItems.shift(); // Removing the first item in cart
 console.log(cartItems); // Logging final 
 
 //Task 4: Map Method
-let prices =[10, 30, 50];
-let discount = discountedPrice = prices.map(price => price * 0.9)
-console.log(`Discounted Price: ${discountedPrice}`);
+let prices =[10, 30, 50]; //Declare array prices
+let discount = discountedPrice = prices.map(price => price * 0.9); //applying 10% discount
+console.log(`Discounted Price: ${discountedPrice}`); // Logging Discounted prices
