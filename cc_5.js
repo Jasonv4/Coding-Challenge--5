@@ -24,3 +24,8 @@ console.log(cartItems); // Logging final
 let prices =[10, 30, 50]; //Declare array prices
 let discount = discountedPrice = prices.map(price => price * 0.9); //applying 10% discount
 console.log(`Discounted Price: ${discountedPrice}`); // Logging Discounted prices
+
+//Task 5: Filter Method
+let inventory = [0, 12, 13, 0, 15, 68]; //Declaring array inventory
+let availableStock = inventory.filter(quantity => quantity > 0); //Removes products with zero stock
+console.log(availableStock);// Logging Filtered array
