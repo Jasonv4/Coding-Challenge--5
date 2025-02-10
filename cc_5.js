@@ -50,3 +50,9 @@ function calculateTax(amount, taxRate) {
 };// Writing Function to calculate tax
     calculateTax(150, 0.07)
 
+//Task 9 Function Expression 
+let applyDiscount =function(price, discount)
+{return price -(price * discount)};
+console.log(`Discounted Price : $${applyDiscount(420, 0.15)}`)
+
+
